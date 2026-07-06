@@ -1,0 +1,56 @@
+{
+  "last_build_time": 1783316393824,
+  "last_update_time": 1783316137031,
+  "last_bal_toml_update_time": 1783316034710,
+  "distribution_version": "2201.13.4",
+  "last_modified_time": {
+    "mediflow": 1783316034710
+  },
+  "last_build_options": {
+    "testReport": false,
+    "codeCoverage": false,
+    "skipTests": true,
+    "compilationOptions": {
+      "experimental": false,
+      "cloud": "",
+      "dumpGraph": false,
+      "dumpRawGraphs": false
+    }
+  },
+  "src_meta_info": [
+    {
+      "file": "C:\\Users\\Qaaed\\Desktop\\projects\\sample-workloads\\service-ballerina-patient-management\\Ballerina.toml",
+      "hash": "610f067c2796b77cc74b6765df12880ee3c2302f5a338dfea955bfe60a9fe856",
+      "size": 93,
+      "lastModifiedTime": 1783316034710
+    },
+    {
+      "file": "C:\\Users\\Qaaed\\Desktop\\projects\\sample-workloads\\service-ballerina-patient-management\\service.bal",
+      "hash": "b2c10fcaa5d5c982cc34748da4b6525f3cbef1165329eb0a475090abcaeea74e",
+      "size": 1700,
+      "lastModifiedTime": 1783316034710
+    }
+  ],
+  "target_exec_meta_info": {
+    "file": "C:\\Users\\Qaaed\\Desktop\\projects\\sample-workloads\\service-ballerina-patient-management\\target\\backup\\bin\\mediflow.jar",
+    "hash": "f4e85f85f6dcc2ae1613e7ee99a6fef7e167185a01c2d56754af2a0c8db74fdb",
+    "size": 47335014,
+    "lastModifiedTime": 1783316395693
+  },
+  "settings_meta_info": {
+    "file": "C:\\Users\\Qaaed\\.ballerina\\Settings.toml",
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0,
+    "lastModifiedTime": 1780895118676
+  },
+  "ballerina_toml_meta_info": {
+    "file": "C:\\Users\\Qaaed\\Desktop\\projects\\sample-workloads\\service-ballerina-patient-management\\Ballerina.toml",
+    "hash": "610f067c2796b77cc74b6765df12880ee3c2302f5a338dfea955bfe60a9fe856",
+    "size": 93,
+    "lastModifiedTime": 1783316034710
+  },
+  "imports": [
+    "ballerina/http",
+    "ballerina/log"
+  ]
+}

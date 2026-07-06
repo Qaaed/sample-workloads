@@ -3,6 +3,7 @@
 
 import ballerina/http;
 import ballerina/log;
+configurable string dbHost = ?;
 
 // In-memory patient store
 map<json> patients = {};
