@@ -10,6 +10,9 @@ map<json> patients = {};
 
 service /mediflow on new http:Listener(9090) {
 
+    function init() {
+        log:printInfo("Connecting to DB at " + dbHost);
+    }
     // Health check endpoint
     resource function get health(http:Caller caller, http:Request req) returns error? {
         log:printInfo("Health check endpoint invoked");
